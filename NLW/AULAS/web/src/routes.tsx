@@ -2,14 +2,14 @@ import React from 'react';
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
 
 import Landing from './pages/Landing';
-import OrphanagesMap from './pages/OrphanagesMap';
+import OrphanageMap from './pages/OrphanagesMap';
 
 function Routes() {
     return (
         <BrowserRouter>
         <Switch>
         <Route path="/" exact component={Landing} />
-        <Route path="/app" compoment={OrphanagesMap} />
+        <Route path="/App" compoment={OrphanageMap} />
         </Switch>
         </BrowserRouter>
        
